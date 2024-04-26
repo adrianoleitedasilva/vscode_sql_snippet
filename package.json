@@ -1,0 +1,20 @@
+{
+  "name": "vscode-sql-snippet",
+  "displayName": "vscode_sql_snippet",
+  "description": "Um code snippet para os comandos SQL customizados.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "sql",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
